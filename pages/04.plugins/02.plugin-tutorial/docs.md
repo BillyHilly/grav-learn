@@ -41,6 +41,14 @@ The first step in creating a new plugin is to **install the DevTools Plugin**.  
 bin/gpm install devtools
 [/prism]
 
+##### Get an Error?
+* If you get an error of `bin/gpm: command not found`, php is not in your path so you need to prepend all commands with `php`:  
+    * `php bin/gpm install devtools` 
+* If you get an error of `bin/gpm: Permission denied`, you may need to use the root user via the `sudo` command:
+    * `sudo bin/gpm install devtools`  
+        OR  
+        `sudo php bin/gpm install devtools`
+
 #### Install via Admin plugin
 
 * After logging in, simply navigate to the **Plugins** section from the sidebar.
